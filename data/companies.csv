@@ -1,6 +1,6 @@
-name,city,state,country
-Microsoft,Redmond,Washington,USA
-Softqube Technologies,,Gujarat,INDIA
+name,city,region,country
+Microsoft,Redmond,WA,USA
+Softqube Technologies,Gujarat,,INDIA
 Accenture,Redwood City,CA,USA
 SAP,Walldorf,,Germany
 Symantec,Mountain View,CA,USA
