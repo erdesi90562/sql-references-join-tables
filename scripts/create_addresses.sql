@@ -1,6 +1,9 @@
--- create addresses connecting people and places
-CREATE TABLE addresses(id SERIAL PRIMARY KEY,
-                       number INTEGER,
-                       street TEXT,
-                       person_id INTEGER REFERENCES people(id),
-                       place_id INTEGER REFERENCES places(id));
+-- create addresses connecting people and cities
+CREATE TABLE addresses (
+  id SERIAL PRIMARY KEY,
+  category CHARACTER VARYING,
+  no INTEGER,
+  street CHARACTER VARYING,
+  person_id INTEGER REFERENCES people(id),
+  city_id INTEGER REFERENCES cities(id)
+);

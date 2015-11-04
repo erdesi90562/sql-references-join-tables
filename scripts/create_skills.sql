@@ -1,2 +1,6 @@
 -- create a table for skills
-CREATE TABLE skills(id SERIAL PRIMARY KEY, language TEXT, framework TEXT);
+CREATE TABLE skills(
+  id SERIAL PRIMARY KEY,
+  language CHARACTER VARYING,
+  framework CHARACTER VARYING
+);
